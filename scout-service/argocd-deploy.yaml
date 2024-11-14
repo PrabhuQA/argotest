@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: scout-service
-        image: docker.io/opsmx11/docker-swarm:9839424-77
+        image: docker.io/opsmx11/scout-service:eefb37d-1
