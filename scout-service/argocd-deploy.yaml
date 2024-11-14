@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: scout-service
+  name: scout-service
+spec:
+  selector:
+    matchLabels:
+      app: scout-service
+  replicas: 1 # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: scout-service
+    spec:
+      containers:
+      - name: scout-service
+        image: docker.io/opsmx11/docker-swarm:9839424-77
