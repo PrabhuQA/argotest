@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: scout-service
-        image: docker.io/opsmx11/spring-service:4f8b2f1-7
+        image: docker.io/opsmx11/face-service:92e3661-8
