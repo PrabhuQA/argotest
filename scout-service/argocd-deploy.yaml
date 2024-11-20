@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: scout-service
-        image: docker.io/opsmx11/kube-ex:9839424-32
+        image: docker.io/opsmx11/kube-ex:9839424-33
