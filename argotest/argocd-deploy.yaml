@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: docker-swarm-visualizer
-        image: docker.io/opsmx11/docker-swarm:9839424-139
+        image: docker.io/opsmx11/docker-swarm:9839424-149
